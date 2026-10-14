@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontak - Jurusan Teknik Komputer dan Informatika</title>
+    <link rel="icon" href="../pict/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Tandai JS aktif SEBELUM render: elemen .reveal hanya disembunyikan kalau JS jalan -->
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <style>
+      /* Khusus halaman Kontak */
+      body {
+        background: #f7f9fb;
+      }
+      main {
+        min-height: 60vh;
+      }
+      .section-card {
+        background: #fff;
+        border: 0;
+        border-radius: 1.5rem;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+      }
+      .contact-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        background: #dcebff;
+        color: #087fc2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.35rem;
+        flex: none;
+      }
+      .contact-item {
+        display: flex;
+        gap: 15px;
+        align-items: flex-start;
+      }
+      .contact-item h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0 0 5px;
+      }
+      .contact-item p {
+        margin: 0;
+        color: #607080;
+        line-height: 1.6;
+      }
+      .contact-item a {
+        color: #075b92;
+      }
+      .form-control {
+        padding: 0.8rem 1rem;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body data-page="kontak">
+    <div id="site-header"></div>
+
+    <main class="py-5 my-lg-4">
+      <div class="container">
+        <div class="reveal mb-4">
+          <h1 class="h3 fw-bold section-title ps-3 mb-2">Kontak</h1>
+          <p class="text-secondary ps-3 mb-0">
+            Hubungi Jurusan Teknik Komputer dan Informatika Politeknik Negeri
+            Medan.
+          </p>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5 reveal from-left">
+            <div class="section-card h-100 p-4 p-lg-5">
+              <h2 class="h4 fw-bold mb-4">Informasi Kontak</h2>
+              <div class="contact-item mb-4">
+                <div class="contact-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <h3>Alamat</h3>
+                  <p>
+                    Jl. Almamater No. 1, Padang Bulan, Kec. Medan Baru, Kota
+                    Medan, Sumatera Utara 20155
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item mb-4">
+                <div class="contact-icon">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div>
+                  <h3>Email</h3>
+                  <p>
+                    <a href="mailto:email@polmed.ac.id">email@polmed.ac.id</a>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item mb-4">
+                <div class="contact-icon">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div>
+                  <h3>Telepon</h3>
+                  <p><a href="tel:+620000000000">+62 (xxx) xxx-xxxx</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-clock-fill"></i></div>
+                <div>
+                  <h3>Jam Layanan</h3>
+                  <p>Senin–Jumat<br />08.00–16.00 WIB</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal from-right" style="--d: 0.15s">
+            <div class="section-card p-4 p-lg-5 h-100">
+              <h2 class="h4 fw-bold mb-2">Kirim Pesan</h2>
+              <p class="text-secondary mb-4">
+                Silakan isi formulir berikut untuk menyampaikan pertanyaan atau
+                informasi.
+              </p>
+              <form id="contactForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nama" class="form-label fw-semibold"
+                      >Nama</label
+                    >
+                    <input
+                      id="nama"
+                      name="nama"
+                      type="text"
+                      class="form-control"
+                      placeholder="Nama lengkap"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label fw-semibold"
+                      >Email</label
+                    >
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      class="form-control"
+                      placeholder="nama@email.com"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="subjek" class="form-label fw-semibold"
+                      >Subjek</label
+                    >
+                    <input
+                      id="subjek"
+                      name="subjek"
+                      type="text"
+                      class="form-control"
+                      placeholder="Subjek pesan"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="pesan" class="form-label fw-semibold"
+                      >Pesan</label
+                    >
+                    <textarea
+                      id="pesan"
+                      name="pesan"
+                      class="form-control"
+                      rows="6"
+                      placeholder="Tulis pesan..."
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary px-4">
+                      <i class="bi bi-send me-2"></i>Kirim Pesan
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <div
+                id="contactAlert"
+                class="alert alert-success mt-4 d-none"
+                role="status"
+              >
+                Pesan berhasil disiapkan. Untuk saat ini formulir masih berupa
+                tampilan front-end.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-card mt-4 p-4 p-lg-5 reveal">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+              <h2 class="h4 fw-bold">Lokasi Jurusan</h2>
+              <p class="text-secondary mb-0">
+                Jurusan Teknik Komputer dan Informatika berada di lingkungan
+                Politeknik Negeri Medan, Jalan Almamater No. 1, Padang Bulan,
+                Medan.
+              </p>
+            </div>
+            <div class="col-lg-5">
+              <div
+                class="rounded-4 p-5 text-center"
+                style="background: #eaf3ff; color: #075b92"
+              >
+                <i class="bi bi-geo-alt-fill" style="font-size: 3rem"></i>
+                <div class="fw-bold mt-2">Politeknik Negeri Medan</div>
+                <small>Jl. Almamater No. 1, Medan</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/components.js" data-base="../"></script>
+    <script src="../js/main.js"></script>
+    <script>
+      // Formulir kontak (front-end saja)
+      var cf = document.getElementById("contactForm"),
+        ca = document.getElementById("contactAlert");
+      cf.addEventListener("submit", function (e) {
+        e.preventDefault();
+        ca.classList.remove("d-none");
+        cf.reset();
+        setTimeout(function () {
+          ca.classList.add("d-none");
+        }, 6000);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akademik - Jurusan Teknik Komputer dan Informatika</title>
+    <link rel="icon" href="../pict/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Tandai JS aktif SEBELUM render: elemen .reveal hanya disembunyikan kalau JS jalan -->
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <style>
+      body {
+        background: #f7f9fb;
+      }
+      main {
+        min-height: 60vh;
+      }
+      section[id] {
+        scroll-margin-top: 70px;
+      }
+    </style>
+  </head>
+  <body data-page="akademik">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <div class="reveal mb-4">
+            <h1 class="h3 fw-bold section-title ps-3 mb-2">Akademik</h1>
+            <p class="text-secondary ps-3 mb-0">
+              Informasi kurikulum, kalender, dosen, dan fasilitas Jurusan Teknik
+              Komputer dan Informatika.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="kurikulum" class="py-5 bg-primary-subtle">
+        <div class="container">
+          <div class="reveal mb-4">
+            <h2 class="h3 fw-bold section-title ps-3 mb-2">Kurikulum</h2>
+            <p class="text-secondary ps-3 mb-0">
+              Kurikulum disusun mengikuti kebutuhan industri teknologi
+              informasi.
+            </p>
+          </div>
+          <div class="row g-4" data-stagger>
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="card card-hover h-100 border-0 rounded-4 p-2">
+                <div class="card-body">
+                  <span
+                    class="icon-box rounded-3 bg-primary-subtle d-flex align-items-center justify-content-center mb-3"
+                    ><i class="bi bi-cpu-fill text-primary"></i
+                  ></span>
+                  <h3 class="h6 fw-bold">D3 Teknik Komputer</h3>
+                  <p class="small">
+                    Sistem komputer, jaringan, serta perangkat keras dan lunak
+                    untuk kebutuhan industri.
+                  </p>
+                  <a
+                    href="program-studi.html#d3-tk"
+                    class="small fw-semibold text-decoration-none"
+                    >Detail Program</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="card card-hover h-100 border-0 rounded-4 p-2">
+                <div class="card-body">
+                  <span
+                    class="icon-box rounded-3 bg-info-subtle d-flex align-items-center justify-content-center mb-3"
+                    ><i class="bi bi-code-slash text-info"></i
+                  ></span>
+                  <h3 class="h6 fw-bold">D3 Manajemen Informatika</h3>
+                  <p class="small">
+                    Pengembangan sistem informasi dan teknologi digital terkini.
+                  </p>
+                  <a
+                    href="program-studi.html#d3-mi"
+                    class="small fw-semibold text-decoration-none"
+                    >Detail Program</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="card card-hover h-100 border-0 rounded-4 p-2">
+                <div class="card-body">
+                  <span
+                    class="icon-box rounded-3 bg-success-subtle d-flex align-items-center justify-content-center mb-3"
+                    ><i class="bi bi-braces text-success"></i
+                  ></span>
+                  <h3 class="h6 fw-bold">
+                    D4 Teknologi Rekayasa Perangkat Lunak
+                  </h3>
+                  <p class="small">
+                    Pengembangan perangkat lunak dan teknologi digital terkini.
+                  </p>
+                  <a
+                    href="program-studi.html#d4-trpl"
+                    class="small fw-semibold text-decoration-none"
+                    >Detail Program</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="card card-hover h-100 border-0 rounded-4 p-2">
+                <div class="card-body">
+                  <span
+                    class="icon-box rounded-3 bg-danger-subtle d-flex align-items-center justify-content-center mb-3"
+                    ><i class="bi bi-controller text-danger"></i
+                  ></span>
+                  <h3 class="h6 fw-bold">
+                    D4 Teknologi Rekayasa Multimedia Grafis
+                  </h3>
+                  <p class="small">
+                    Pengembangan game, multimedia, dan teknologi digital
+                    terkini.
+                  </p>
+                  <a
+                    href="program-studi.html#d4-trmg"
+                    class="small fw-semibold text-decoration-none"
+                    >Detail Program</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== KALENDER AKADEMIK ===== -->
+      <section id="kalender" class="py-5">
+        <div class="container">
+          <div class="reveal mb-4">
+            <h2 class="h3 fw-bold section-title ps-3 mb-2">
+              Kalender Akademik
+            </h2>
+            <p class="text-secondary ps-3 mb-0">
+              Jadwal kegiatan akademik Semester B T.A. 2025/2026.
+            </p>
+          </div>
+          <div class="card border-0 shadow-sm rounded-4 overflow-hidden reveal">
+            <a
+              href="../pict/kalender-akademik-2025-2026-b.png"
+              target="_blank"
+              rel="noopener"
+              title="Buka ukuran penuh"
+            >
+              <img
+                src="../pict/kalender-akademik-2025-2026-b.png"
+                alt="Kalender Akademik Semester B Tahun Akademik 2025/2026"
+                class="img-fluid w-100 d-block"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="card-body d-flex flex-wrap justify-content-between align-items-center gap-2"
+            >
+              <small class="text-secondary">
+                Klik gambar untuk melihat ukuran penuh.
+              </small>
+              <a
+                href="../pict/kalender-akademik-2025-2026-b.png"
+                download
+                class="btn btn-primary btn-sm px-3"
+              >
+                <i class="bi bi-download me-1"></i>Unduh Kalender
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== FASILITAS ===== -->
+      <section id="fasilitas" class="py-5">
+        <div class="container">
+          <div class="reveal mb-4">
+            <h2 class="h3 fw-bold section-title ps-3 mb-2">Fasilitas</h2>
+            <p class="text-secondary ps-3 mb-0">
+              Laboratorium untuk praktik langsung yang siap pakai industri.
+            </p>
+          </div>
+          <div class="row g-4" data-stagger>
+            <div class="col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden"
+              >
+                <img
+                  src="../pict/lab-komputer.jpeg"
+                  class="card-img-top"
+                  alt="Laboratorium Komputer"
+                  loading="lazy"
+                />
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Laboratorium Komputer</h3>
+                  <p class="small mb-0">
+                    Praktik pemrograman dan pengembangan perangkat lunak.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden"
+              >
+                <img
+                  src="../pict/studio.jpeg"
+                  class="card-img-top"
+                  alt="Studio"
+                  loading="lazy"
+                />
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Studio</h3>
+                  <p class="small mb-0">
+                    Ruang untuk praktik dan kegiatan akademik lainnya.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden"
+              >
+                <img
+                  src="../pict/ruang-rapat.jpeg"
+                  class="card-img-top"
+                  alt="Ruang Rapat"
+                  loading="lazy"
+                />
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Ruang Rapat</h3>
+                  <p class="small mb-0">
+                    Tempat untuk pertemuan dan diskusi akademik.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="dosen" class="py-5 bg-primary-subtle">
+        <div class="container">
+          <div class="reveal mb-4">
+            <h2 class="h3 fw-bold section-title ps-3 mb-2">Dosen &amp; Staf</h2>
+            <p class="text-secondary ps-3 mb-0">
+              Tenaga pengajar dan kependidikan jurusan.
+            </p>
+          </div>
+          <div class="row g-4" data-stagger>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen.jpg"
+                  alt="Foto ."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen1.png"
+                  alt="Foto ."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen2.png"
+                  alt="Foto ."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen3.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen4.png"
+                  alt="Foto ."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen5.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen6.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen7.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen8.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen9.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen10.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen11.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen12.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen13.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4 reveal">
+              <div
+                class="card card-hover h-100 border-0 shadow-sm rounded-4 overflow-hidden text-center"
+              >
+                <img
+                  src="../pict/dosen14.png"
+                  alt="Foto."
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/components.js" data-base="../"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
